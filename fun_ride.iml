@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="setUp" />
+    <orderEntry type="module" module-name="add_new_bicycle_types" />
+    <orderEntry type="module" module-name="add_more_bikeRides" />
+    <orderEntry type="module" module-name="removing_repitition_part1" />
+    <orderEntry type="module" module-name="add_the_type_of_the_bike_again" />
+    <orderEntry type="module" module-name="a_bicycleRide_class" />
+    <orderEntry type="module" module-name="removing_repitiiton_once_again" />
+  </component>
+</module>
