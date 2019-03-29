@@ -1,5 +1,7 @@
-package bicycles;
+package bicycles.rides;
 
+import bicycles.Bicycle;
+import bicycles.BicycleType;
 import bicycles.models.RoadBike;
 
 import java.util.ArrayList;
