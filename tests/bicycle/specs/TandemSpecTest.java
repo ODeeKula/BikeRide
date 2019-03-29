@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class tandemSpecTest {
+public class TandemSpecTest {
     @Test
     public void tandemBikeSpecTest() {
         BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, - 7, BicycleType.Tandem);

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class roadBikeTest {
+public class RoadBikeTest {
     @Test
     public void shouldAccellerate() {
         assertEquals(11,11);

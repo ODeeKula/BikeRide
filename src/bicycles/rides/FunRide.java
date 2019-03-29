@@ -15,8 +15,8 @@ public class FunRide {
         this.maxNumberOfBikes = maxNumberOfBikes;
     }
 
-    public void acceptMethod(Bicycle bicycle){
-        if(nameOfBikes.size() < maxNumberOfBikes ){
+    public void accept(Bicycle bicycle){
+        if(!nameOfBikes.contains(bicycle) && nameOfBikes.size() < maxNumberOfBikes ){
             nameOfBikes.add(bicycle);
         }
     }

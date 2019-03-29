@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class mountainBikeSpecTest {
+public class MountainBikeSpecTest {
     @Test
     public void mountainBikeSpecTest() {
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, - 3, BicycleType.MountainBike);

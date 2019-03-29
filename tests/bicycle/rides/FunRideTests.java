@@ -32,9 +32,9 @@ public class FunRideTests {
     @Test
     public void howManyMountainBikes(){
         FunRide funRide = new FunRide(3);
-        funRide.acceptMethod(bicycle);
-        funRide.acceptMethod(bicycle2);
-        funRide.acceptMethod(bicycle3);
+        funRide.accept(bicycle);
+        funRide.accept(bicycle2);
+        funRide.accept(bicycle3);
         assertEquals(3, funRide.getEnteredCount());
     }
 
@@ -43,11 +43,11 @@ public class FunRideTests {
     @Test
     public void howManyRoadBikes(){
         FunRide funRide = new FunRide(20);
-        funRide.acceptMethod(bicycle4);
-        funRide.acceptMethod(bicycle5);
-        funRide.acceptMethod(bicycle6);
-        funRide.acceptMethod(bicycle7);
-        funRide.acceptMethod(bicycle8);
+        funRide.accept(bicycle4);
+        funRide.accept(bicycle5);
+        funRide.accept(bicycle6);
+        funRide.accept(bicycle7);
+        funRide.accept(bicycle8);
         assertEquals(5, funRide.getEnteredCount());
 
     }
@@ -55,10 +55,12 @@ public class FunRideTests {
     @Test
     public void howManyTandemBikes(){
         FunRide funRide = new FunRide(10);
-        funRide.acceptMethod(bicycle9);
-        funRide.acceptMethod(bicycle10);
-        funRide.acceptMethod(bicycle11);
-        funRide.acceptMethod(bicycle12);
+        funRide.accept(bicycle9);
+        funRide.accept(bicycle10);
+        funRide.accept(bicycle11);
+        funRide.accept(bicycle12);
+        funRide.accept(bicycle12);
+
         assertEquals(4, funRide.getEnteredCount());
     }
 
